@@ -1,0 +1,103 @@
+{
+	"ret": true,
+	"data": {
+		"city": "苏州",
+		"swiperList": [{
+				"id": "0001",
+				"imgUrl": "http://img1.qunarzz.com/piao/fusion/1811/a8/cb43c4ac6c215d02.jpg_750x200_83dee994.jpg"
+			}, {
+				"id": "0002",
+				"imgUrl": "http://img1.qunarzz.com/piao/fusion/1812/47/a51fe403715df102.jpg_750x200_085792b6.jpg"
+			}],
+		"iconList": [{
+				"id": "0001",
+				"imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+				"desc": "景点门票"
+			}, {
+				"id": "0002",
+				"imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/67/9a1678221b8e0e02.png",
+				"desc": "古镇"
+			}, {
+				"id": "0003",
+				"imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+				"desc": "一日游"
+			},{
+				"id": "0004",
+				"imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+				"desc": "苏州必游"
+			},{
+				"id": "0005",
+				"imgUrl": "http://img1.qunarzz.com/piao/fusion/1811/f6/e54fad3ea337b02.gif",
+				"desc": "年终大促"
+			},{
+				"id": "0006",
+				"imgUrl": "https://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png",
+				"desc": "华谊兄弟"
+			},{
+				"id": "0007",
+				"imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/17/99402a22ce4af302.png",
+				"desc": "苏州园林"
+			},{
+				"id": "0008",
+				"imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+				"desc": "景点门票"
+			}, {
+				"id": "0009",
+				"imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/67/9a1678221b8e0e02.png",
+				"desc": "古镇"
+			}],
+		"recommendList": [{
+				"id": "0001",
+				"imgUrl": "http://img1.qunarzz.com/sight/p0/1503/38/3806235c8444b759.water.jpg_200x200_c152fb10.jpg",
+				"title":"苏州天颐温泉",
+				"desc": "江南佳丽地，享滋润温汤，葆青春容颜"
+			}, {
+				"id": "0002",
+				"imgUrl": "http://img1.qunarzz.com/sight/p0/1603/41/411873a415e03f1e90.water.jpg_200x200_0905ce68.jpg",
+				"title":"苏州天颐温泉",
+				"desc": "江南佳丽地，享滋润温汤，葆青春容颜"
+			}, {
+				"id": "0003",
+				"imgUrl": "http://img1.qunarzz.com/sight/p0/1511/b3/b3752a499166761d90.water.jpg_200x200_48092eaa.jpg",
+				"title":"苏州天颐温泉",
+				"desc": "江南佳丽地，享滋润温汤，葆青春容颜"
+			}, {
+				"id": "0004",
+				"imgUrl": "http://img1.qunarzz.com/sight/p0/1503/38/3806235c8444b759.water.jpg_200x200_c152fb10.jpg",
+				"title":"苏州天颐温泉",
+				"desc": "江南佳丽地，享滋润温汤，葆青春容颜"
+			}, {
+				"id": "0005",
+				"imgUrl": "http://img1.qunarzz.com/sight/p0/1503/38/3806235c8444b759.water.jpg_200x200_c152fb10.jpg",
+				"title":"苏州天颐温泉",
+				"desc": "江南佳丽地，享滋润温汤，葆青春容颜"
+			}],
+		"weekendList": [{
+				"id": "0001",
+				"imgUrl": "http://img1.qunarzz.com/sight/source/1505/8a/d412db9fcd44dd.jpg_r_640x214_86f303a2.jpg",
+				"title":"苏州天颐温泉",
+				"desc": "江南佳丽地，享滋润温汤，葆青春容颜"
+			}, {
+				"id": "0002",
+				"imgUrl": "http://img1.qunarzz.com/sight/source/1812/ce/44203f8332865.jpg_r_640x214_ec49a2ca.jpg",
+				"title":"苏州天颐温泉",
+				"desc": "江南佳丽地，享滋润温汤，葆青春容颜"
+			}, {
+				"id": "0003",
+				"imgUrl": "http://img1.qunarzz.com/sight/source/1505/70/b2f8425ce486ed.jpg_r_640x214_5db9de57.jpg",
+				"title":"苏州天颐温泉",
+				"desc": "江南佳丽地，享滋润温汤，葆青春容颜"
+			}, {
+				"id": "0004",
+				"imgUrl": "http://img1.qunarzz.com/sight/source/1505/8a/d412db9fcd44dd.jpg_r_640x214_86f303a2.jpg",
+				"title":"苏州天颐温泉",
+				"desc": "江南佳丽地，享滋润温汤，葆青春容颜"
+			}, {
+				"id": "0005",
+				"imgUrl": "http://img1.qunarzz.com/sight/source/1505/8a/d412db9fcd44dd.jpg_r_640x214_86f303a2.jpg",
+				"title":"苏州天颐温泉",
+				"desc": "江南佳丽地，享滋润温汤，葆青春容颜"
+			}]
+
+	}
+}

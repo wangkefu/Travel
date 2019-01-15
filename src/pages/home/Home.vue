@@ -15,6 +15,7 @@ import HomeIcons from './components/Icons'
 import HomeRecommend from './components/Recommend'
 import HomeWeekend from './components/Weekend'
 import axios from 'axios'
+import { mapState } from 'vuex'
 export default {
   name: 'Home',
   components: {
@@ -26,16 +27,20 @@ export default {
   },
   data () {
     return {
+      lastCity: '',
       swiperList: [],
       iconList: [],
       recommendList: [],
       weekendList: []
     }
   },
+  computed: {
+    ...mapState(['city'])
+  },
   methods: {
     getHomeInfo () {
       // 在config文件夹下的index文件中改写proxyTable使/api指向/static/mock
-      axios.get('/api/index.json')
+      axios.get('/api/index.json?city=' + this.city)
         .then(this.getHomeInfoSucc)
     },
     getHomeInfoSucc (res) {
@@ -43,14 +48,24 @@ export default {
       if(res.ret && res.data){
         const data = res.data
         this.swiperList = data.swiperList
-        this.iconList = data.iconList,
+        this.iconList = data.iconList
         this.recommendList = data.recommendList
         this.weekendList = data.weekendList
       }
     }
   },
   mounted () {
+    console.log('mounted')
+    this.lastCity = this.city
     this.getHomeInfo()
+  },
+  // activated 生命周期在keep-alive 组件激活时调用
+  activated() {
+    console.log('activated')
+    if(this.lastCity !== this.city) {
+      this.lastCity = this.city
+      this.getHomeInfo()
+    }
   }
 }
 </script>
